@@ -160,9 +160,7 @@ color: var(--color-light);
 /* =========================================== MEADIA FOR TABLET =====*/
 
 @media screen and (max-width:1024px) {
-    body {
-        background-color:red;
-    }
+   
     .about__achievements {
         margin-top: 2rem;
     }
@@ -189,9 +187,7 @@ color: var(--color-light);
 /* =========================================== MEADIA FOR PHONE =====*/
 
 @media screen and (max-width:600px) {
-    body {
-        background-color:aqua;
-    }
+ 
 
     .about__achievements-container {
         display: grid;
