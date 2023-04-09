@@ -645,13 +645,8 @@ footer ul li a:hover {
    }
 
    .header__container {
-    grid-template-columns:;
    
-   
-   
-    text-align: center;
-    gap: 1rem;
-    margin-top: 0;
+   padding: 1.5rem;
    }
 
    .header__left h1 {
@@ -686,9 +681,7 @@ footer ul li a:hover {
   }
 
     /* ******************************************TESTIMONIALS***************************/
-    .testimonial__body {
-        padding: 1.2rem;
-    }
+  
 
       /* ****************************************** FOOTER ***************************/
 
