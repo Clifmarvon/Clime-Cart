@@ -172,7 +172,7 @@ header {
     height: 100%;
 }
 .header__left p {
-    margin: 1rem 0 2.4rem;
+    margin: 1rem 0 1rem;
 }
 
 
@@ -188,7 +188,7 @@ header {
 
 .categories h1 {
     line-height: 1;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .categories__container {
@@ -198,7 +198,7 @@ header {
 }
 
 .categories__left p{
-    margin: 1rem 0 3rem;
+    margin: 0 0 1rem;
 }
 
 .categories__right {
@@ -208,12 +208,13 @@ header {
 }
 
 .categories__left {
-    margin-right: 4rem;
+    margin-right: 1rem;
 }
 
 .category {
     background: var(--color-bg2);
-    padding: 2rem;
+    padding: 1.2rem;
+    
     border-radius: 2rem;
     transition: var(--transition);
     -webkit-border-radius: 2rem;
@@ -258,12 +259,12 @@ header {
 }
 
 .category h5 {
-    margin: 2rem 0 1rem;
+    margin: .5rem 0 1rem;
 
 }
 
 .category p {
-    font-size: 0.5rem;
+    font-size: .6rem;
 }
 
 
