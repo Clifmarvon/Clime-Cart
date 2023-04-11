@@ -1,3 +1,27 @@
+
+/* ************************************* ABOUT-INFO ************************/
+.about__page {
+    margin-top: 3rem;
+}
+
+.about__page h2 {
+   margin-bottom: 1.5rem;
+}
+
+.about-page-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1.4rem;
+}
+
+.about__right-info  {
+margin: 1.6rem .5rem 1.2rem;
+}
+
+.about__right-info p {
+    margin: 0 0 .2rem;
+    }
+
 /* ************************************* ACHIEVEMENTS ************************/
 .about__achievements{
     margin-top: 3rem;
@@ -189,6 +213,10 @@ color: var(--color-light);
 @media screen and (max-width:600px) {
  
 
+    .about-page-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .about__achievements-container {
         display: grid;
         
