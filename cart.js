@@ -58,6 +58,6 @@ window.addEventListener("scroll", () => {
 });
 
 arrUP.addEventListener("click", () => {
-  // Scroll the page to the top (0 vertical scroll position) when 'arrUP' is clicked.
+ 
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
