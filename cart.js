@@ -45,17 +45,20 @@ const closeNav = () => {
 
 closeBtn.addEventListener("click", closeNav);
 
-const arrUP = document.querySelector(".uil-arrow-circle-up");
+let winds = 0;
 
-window.addEventListener("scroll", () => {
-  var winds = window.scrollY;
+window.addEventListener('scroll', () => {
+    winds = window.scrollY;
 
-  if (winds >= 520) {
-    arrUP.style.display = "block";
-  } else {
-    arrUP.style.display = "none";
-  }
+    if (winds >= 520) {
+        alert('hey');
+        arrUP.style.display = 'block';
+    } else {
+        arrUP.style.display = 'none';
+    }
 });
-arrUp.addEventListener("click", () => {
-  winds = 1;
+
+arrUP.addEventListener('click', () => {
+    // Scroll the page to the top (0 vertical scroll position) when 'arrUP' is clicked.
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 });
