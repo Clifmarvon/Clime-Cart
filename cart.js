@@ -62,10 +62,15 @@ window.addEventListener('scroll', () => {
 
     // Check if the vertical scroll position is equal to or greater than 620.
     if (winds >= 620) {
+        // When the scroll position is at or below 620, make the element visible.
         CoursesSec.style.visibility = 'visible';
+        // Add the 'pagIn' animation class to trigger the animation.
+        CoursesSec.classList.add('pagIn');
     } else {
-        // If the vertical scroll position is less than 620, hide the element.
+        // If the vertical scroll position is above 620, hide the element.
         CoursesSec.style.visibility = 'hidden';
-        CoursesSec.style.display = 'none';
+        // Remove the 'pagIn' animation class to reset the animation.
+        CoursesSec.classList.remove('pagIn');
     }
 });
+

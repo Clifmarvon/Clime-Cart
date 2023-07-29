@@ -279,21 +279,22 @@ header {
     
 ============================== */
 
+/* Styles for .courses */
 .courses {
     margin-top: 10rem;
+    visibility: hidden; /* Initially hide the element */
     position: relative;
-    left: 0; 
-    transition: 2s linear;
-    animation: pagIn 2s normal;
+    left: 0; /* Initial position for the animation */
+    transition: .9s linear;
 }
 
-
+/* Keyframes Animation pagIn */
 @keyframes pagIn {
     from {
-        right: 2rem;
+        transform: translateX(230px); /* Move the element 230px to the right */
     }
     to {
-        left: 2rem;
+        transform: translateX(0); /* Move the element back to its original position */
     }
 }
 
