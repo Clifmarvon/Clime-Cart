@@ -439,12 +439,18 @@ header {
 
 
 .arrow-tt{
-    width:60px;
-    height:50px;
-    position: relative;
+    width:40px;
+    height:40px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
     float: right;
     display: block;
     background-color: #00bf8e;
+}
+
+.uil-arrow-circle-up{
+    font-size: 28px;
 }
 
 
