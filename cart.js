@@ -46,7 +46,7 @@ const closeNav = () => {
 closeBtn.addEventListener("click", closeNav);
 
 let winds = 0;
-
+const arrUP = document.querySelector('.uil-arrow-circle-up');
 window.addEventListener("scroll", () => {
   winds = window.scrollY;
 
