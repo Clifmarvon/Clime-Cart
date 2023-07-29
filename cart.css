@@ -446,10 +446,10 @@ header {
     z-index: 11;
     right: 10px;
     overflow: hidden;
-    position:fixed;
+    position:sticky;
     float: right;
     display: block;
-    background-color: #00bf8e;
+    background-color: #606262;
 }
 
 .uil-arrow-circle-up{
