@@ -284,7 +284,7 @@ header {
     margin-top: 10rem;
     visibility: hidden; /* Initially hide the element */
     position: relative;
-    left: 0; /* Initial position for the animation */
+    right: 3rem; /* Initial position for the animation */
     transition: .9s linear;
     animation: pagIn 2s normal ;
 }
