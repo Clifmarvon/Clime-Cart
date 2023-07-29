@@ -282,26 +282,10 @@ header {
 /* Styles for .courses */
 .courses {
     margin-top: 10rem;
-    visibility: hidden; /* Initially hide the element */
-    position: relative;
-
-    right: 0; /* Initial position for the animation */
-
- 
-
-    transition: .9s linear;
-    animation: pagIn 2s normal ;
+  
 }
 
-/* Keyframes Animation pagIn */
-@keyframes pagIn {
-    from {
-        transform: translateX(10rem); /* Move the element 230px to the right */
-    }
-    to {
-        transform: translateX(0); /* Move the element back to its original position */
-    }
-}
+
 
 
 
