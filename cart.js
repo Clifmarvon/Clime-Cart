@@ -51,7 +51,7 @@ window.addEventListener('scroll', () => {
     winds = window.scrollY;
 
     if (winds >= 520) {
-        alert('hey');
+      
         arrUP.style.display = 'block';
     } else {
         arrUP.style.display = 'none';
