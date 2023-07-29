@@ -53,24 +53,5 @@ const closeNav = () => {
 closeBtn.addEventListener('click', closeNav);
  
 
-const CoursesSec = document.querySelector('.courses');
 
-// Add a scroll event listener to the 'window' object.
-window.addEventListener('scroll', () => {
-    // Get the current vertical scroll position and store it in the 'winds' variable.
-    var winds = window.scrollY;
-
-    // Check if the vertical scroll position is equal to or greater than 620.
-    if (winds >= 620) {
-        // When the scroll position is at or below 620, make the element visible.
-        CoursesSec.style.visibility = 'visible';
-        // Add the 'pagIn' animation class to trigger the animation.
-        CoursesSec.classList.add('pagIn');
-    } else {
-        // If the vertical scroll position is above 620, hide the element.
-        CoursesSec.style.visibility = 'hidden';
-        // Remove the 'pagIn' animation class to reset the animation.
-        CoursesSec.classList.remove('pagIn');
-    }
-});
 
