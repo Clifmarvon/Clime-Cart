@@ -446,7 +446,7 @@ header {
     z-index: 11;
     right: 10px;
     overflow: hidden;
-    position:sticky;
+    position:fixed;
     float: right;
     display: block;
     background-color: #606262;
