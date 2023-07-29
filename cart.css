@@ -411,6 +411,7 @@ header {
   font-size: 28px;
   background-color: #606262;
   z-index: 11;
+  border-radius: 5px;
   padding: 20px;
   bottom: 278px;
   right: 10px;
