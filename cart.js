@@ -55,3 +55,12 @@ closeBtn.addEventListener('click', closeNav);
 
 
 
+const arrUP = document.querySelector('.uil-arrow-circle-up');
+
+let winds = Window.scrollY;
+
+if (winds >= 550 ){
+    arrUP.style.display = 'block';
+}else{
+    arrUP.style.display = 'none';
+}
