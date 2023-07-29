@@ -283,17 +283,17 @@ header {
     margin-top: 10rem;
     position: relative;
     left: 0; 
-    transition: .9s linear;
+    transition: 2s linear;
     animation: pagIn 2s normal;
 }
 
 
 @keyframes pagIn {
     from {
-        right: 230px;
+        right: 2rem;
     }
     to {
-        left: 230px;
+        left: 2rem;
     }
 }
 
