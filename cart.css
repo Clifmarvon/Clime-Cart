@@ -443,8 +443,8 @@ header {
 .uil-arrow-circle-up{
     font-size: 28px;
     background-color: #606262;
-    z-index: 99999;
-    padding: 2rem;
+    z-index: 1;
+    padding: 20px;
     bottom: 278px;
     right: 10px;
     overflow: hidden;
