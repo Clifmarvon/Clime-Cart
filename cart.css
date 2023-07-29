@@ -448,7 +448,7 @@ header {
     overflow: hidden;
     position:absolute;
     cursor: pointer;
-    float: right;
+    
     display: block;
     background-color: #606262;
 }
