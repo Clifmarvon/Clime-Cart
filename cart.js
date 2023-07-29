@@ -52,3 +52,18 @@ const closeNav = () => {
 
 closeBtn.addEventListener('click', closeNav);
  
+
+const CoursesSec = document.querySelector('.courses');
+
+// Add a scroll event listener to the 'window' object.
+window.addEventListener('scroll', () => {
+    // Get the current vertical scroll position and store it in the 'winds' variable.
+    var winds = window.scrollY;
+
+    // Check if the vertical scroll position is equal to 599.
+    if (winds >= 620) {
+        CoursesSec.style.display = 'block';
+    }else if (winds < 620){
+        CoursesSec.style.display = 'hidden';
+    }
+});
