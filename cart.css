@@ -412,7 +412,8 @@ header {
   background-color: #606262;
   z-index: 11;
   border-radius: 5px;
-  padding: 5px 6px;
+  padding-left: 2px;
+  padding-right: 2px;
   bottom: 278px;
   right: 10px;
   overflow: hidden;
