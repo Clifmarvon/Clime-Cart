@@ -281,7 +281,26 @@ header {
 
 .courses {
     margin-top: 10rem;
+    position: relative;
+    left: 0; 
+    transition: .9s linear;
+    animation: pagIn 2s normal;
 }
+
+
+@keyframes pagIn {
+    from {
+        right: 230px;
+    }
+    to {
+        left: 230px;
+    }
+}
+
+
+
+
+
 
 .courses__container {
     display: grid;
