@@ -47,18 +47,17 @@ closeBtn.addEventListener("click", closeNav);
 
 let winds = 0;
 
-window.addEventListener('scroll', () => {
-    winds = window.scrollY;
+window.addEventListener("scroll", () => {
+  winds = window.scrollY;
 
-    if (winds >= 520) {
-      
-        arrUP.style.display = 'block';
-    } else {
-        arrUP.style.display = 'none';
-    }
+  if (winds >= 520) {
+    arrUP.style.display = "block";
+  } else {
+    arrUP.style.display = "none";
+  }
 });
 
-arrUP.addEventListener('click', () => {
-    // Scroll the page to the top (0 vertical scroll position) when 'arrUP' is clicked.
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+arrUP.addEventListener("click", () => {
+  // Scroll the page to the top (0 vertical scroll position) when 'arrUP' is clicked.
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
