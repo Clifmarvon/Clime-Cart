@@ -446,7 +446,8 @@ header {
     z-index: 11;
     right: 10px;
     overflow: hidden;
-    position:fixed;
+    position:absolute;
+    cursor: pointer;
     float: right;
     display: block;
     background-color: #606262;
@@ -454,6 +455,7 @@ header {
 
 .uil-arrow-circle-up{
     font-size: 28px;
+    color: #f75842;
 }
 
 
