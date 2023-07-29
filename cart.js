@@ -66,5 +66,6 @@ window.addEventListener('scroll', () => {
     } else {
         // If the vertical scroll position is less than 620, hide the element.
         CoursesSec.style.visibility = 'hidden';
+        CoursesSec.style.display = 'none';
     }
 });
