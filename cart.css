@@ -408,7 +408,7 @@ header {
 }
 
 .uil-arrow-circle-up {
-    
+    display:none;
   font-size: 35px;
   background-color: #606262;
   z-index: 11;
