@@ -50,7 +50,7 @@ const arrUP = document.querySelector('.uil-arrow-circle-up');
 window.addEventListener("scroll", () => {
   winds = window.scrollY;
 
-  if (winds >= 720) {
+  if (winds >= 920) {
     arrUP.style.display = "block";
   } else {
     arrUP.style.display = "none";
