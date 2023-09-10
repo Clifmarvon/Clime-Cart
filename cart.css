@@ -686,3 +686,8 @@ footer ul li a:hover {
     justify-content: center;
   }
 }
+
+.dwnl-btn{
+  background-color: #00bf8e;
+  padding: 0.5rem;
+}
